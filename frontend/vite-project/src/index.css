@@ -1,0 +1,30 @@
+/* zebra striping */
+
+tbody tr:nth-child(odd) {
+  background-color: #3399FF;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #FFFFFF;
+}
+
+
+table {
+  background-color: #ff33cc;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #ff33cc;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
